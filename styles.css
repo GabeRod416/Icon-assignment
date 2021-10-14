@@ -1,0 +1,52 @@
+body {
+font: fantasy;
+font-size: 16px;
+margiun: 5%;
+background-color: #0039A6;
+}
+
+h1 {
+text-align: center;
+}
+
+.grid-item {
+	background-color: #FFFFFF;
+	height: 150px;
+	flex-basis: 20%;
+	margin: 2px;
+	margin-bottom: 2px;
+}
+
+img {width: 100%;
+height: auto;
+}
+
+.main-image {
+	max-width: 800px;
+	margin: 0 auto;
+
+}
+
+.icon {
+	max-width: 150px;
+padding: 5px;
+}
+
+@media(min-width: 681px) {
+
+	.grid-area { 
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.grid-item {
+		flex-basis: 30%;
+	}
+
+
+}
+
+
+
+
